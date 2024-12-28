@@ -9,7 +9,8 @@ const printCompilationMessage = require('./compilation.config.js');
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8001/",
+    // publicPath: "http://localhost:8001/",
+    publicPath: "https://micro-auth-frontend.vercel.app/",
   },
 
   resolve: {
